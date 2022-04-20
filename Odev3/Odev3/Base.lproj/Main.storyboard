@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5JW-gn-P4P">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ArimaMadurai-Medium.ttf">
+            <string>ArimaMadurai-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Odev3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color palette: walnut brown, bone beige, charcoal" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HiJ-OO-eAA">
+                                <rect key="frame" x="5" y="504.5" width="404" height="69"/>
+                                <fontDescription key="fontDescription" name="ArimaMadurai-Medium" family="Arima Madurai" pointSize="21"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbY-im-i6w">
+                                <rect key="frame" x="240.5" y="433.5" width="145.5" height="48.5"/>
+                                <color key="backgroundColor" name="yaziRenk2"/>
+                                <color key="tintColor" name="yaziRenk1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Add To Chart">
+                                    <fontDescription key="titleFontDescription" name="ArimaMadurai-Medium" family="Arima Madurai" pointSize="21"/>
+                                    <color key="baseForegroundColor" name="yaziRenk1"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$200" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1C-VI-MXn">
+                                <rect key="frame" x="35" y="433.5" width="68.5" height="47.5"/>
+                                <fontDescription key="fontDescription" name="ArimaMadurai-Medium" family="Arima Madurai" pointSize="29"/>
+                                <color key="textColor" name="yaziRenk3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D23-Lt-18V">
+                                <rect key="frame" x="107" y="581" width="41.5" height="34.5"/>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hg5-kP-bMU">
+                                <rect key="frame" x="63" y="618.5" width="37" height="33"/>
+                                <fontDescription key="fontDescription" name="ArimaMadurai-Medium" family="Arima Madurai" pointSize="20"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text=" : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2L-JU-Xpr">
+                                <rect key="frame" x="182.5" y="615" width="15" height="34.5"/>
+                                <fontDescription key="fontDescription" name="ArimaMadurai-Medium" family="Arima Madurai" pointSize="21"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSO-6E-odR">
+                                <rect key="frame" x="227.5" y="611" width="88.5" height="47"/>
+                                <color key="backgroundColor" name="yaziRenk2"/>
+                                <color key="tintColor" name="yaziRenk2"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="60x110">
+                                    <fontDescription key="titleFontDescription" name="ArimaMadurai-Medium" family="Arima Madurai" pointSize="20"/>
+                                    <color key="baseForegroundColor" name="yaziRenk1"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KCx-fI-Ogj">
+                                <rect key="frame" x="35" y="665" width="163" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meterial" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bb0-Uq-vej">
+                                <rect key="frame" x="63" y="689.5" width="71.5" height="32"/>
+                                <fontDescription key="fontDescription" name="ArimaMadurai-Medium" family="Arima Madurai" pointSize="19"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUU-Pe-aop">
+                                <rect key="frame" x="182" y="687" width="15" height="34.5"/>
+                                <fontDescription key="fontDescription" name="ArimaMadurai-Medium" family="Arima Madurai" pointSize="21"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGq-4N-rpL">
+                                <rect key="frame" x="227.5" y="681" width="117.5" height="47"/>
+                                <color key="backgroundColor" name="yaziRenk2"/>
+                                <color key="tintColor" name="yaziRenk1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=" Polyester ">
+                                    <fontDescription key="titleFontDescription" name="ArimaMadurai-Medium" family="Arima Madurai" pointSize="20"/>
+                                    <color key="baseForegroundColor" name="yaziRenk1"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Every floor deserve perfect rugs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWa-Lb-8hS">
+                                <rect key="frame" x="63" y="144" width="288.5" height="33"/>
+                                <fontDescription key="fontDescription" name="ArimaMadurai-Medium" family="Arima Madurai" pointSize="20"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jawa Collection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l74-Ve-Cpx">
+                                <rect key="frame" x="75" y="93" width="251.5" height="41"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="haliResim" translatesAutoresizingMaskIntoConstraints="NO" id="aWa-aQ-on6">
+                                <rect key="frame" x="20" y="193" width="374" height="250"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="s2L-JU-Xpr" firstAttribute="top" secondItem="HiJ-OO-eAA" secondAttribute="bottom" constant="41.5" id="1R6-wX-36V"/>
+                            <constraint firstItem="Bb0-Uq-vej" firstAttribute="top" secondItem="hg5-kP-bMU" secondAttribute="bottom" constant="38" id="4X2-ho-ywU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HiJ-OO-eAA" secondAttribute="trailing" constant="5" id="5fh-eL-jNL"/>
+                            <constraint firstItem="l74-Ve-Cpx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="9H1-qi-ej8"/>
+                            <constraint firstItem="hg5-kP-bMU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="Ale-eN-kwZ"/>
+                            <constraint firstItem="LUU-Pe-aop" firstAttribute="top" secondItem="s2L-JU-Xpr" secondAttribute="bottom" constant="37.5" id="EZf-7j-Kla"/>
+                            <constraint firstItem="aWa-Lb-8hS" firstAttribute="top" secondItem="l74-Ve-Cpx" secondAttribute="bottom" constant="10" id="Fax-rp-OtE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MGq-4N-rpL" secondAttribute="trailing" constant="69" id="GY8-qI-bw3"/>
+                            <constraint firstItem="P1C-VI-MXn" firstAttribute="top" secondItem="aWa-Lb-8hS" secondAttribute="bottom" constant="256.5" id="Hjy-Hb-hEO"/>
+                            <constraint firstItem="aWa-aQ-on6" firstAttribute="top" secondItem="aWa-Lb-8hS" secondAttribute="bottom" constant="16" id="I38-yR-VhK"/>
+                            <constraint firstItem="HiJ-OO-eAA" firstAttribute="top" secondItem="hbY-im-i6w" secondAttribute="bottom" constant="22.5" id="Jyl-xV-SYO"/>
+                            <constraint firstItem="hg5-kP-bMU" firstAttribute="top" secondItem="HiJ-OO-eAA" secondAttribute="bottom" constant="45" id="V7V-Rx-41r"/>
+                            <constraint firstItem="HiJ-OO-eAA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="VzO-b1-cK0"/>
+                            <constraint firstItem="MGq-4N-rpL" firstAttribute="top" secondItem="NSO-6E-odR" secondAttribute="bottom" constant="23" id="Yen-Pm-qsp"/>
+                            <constraint firstItem="MGq-4N-rpL" firstAttribute="leading" secondItem="LUU-Pe-aop" secondAttribute="trailing" constant="30.5" id="YyV-xk-ma4"/>
+                            <constraint firstItem="hbY-im-i6w" firstAttribute="top" secondItem="aWa-Lb-8hS" secondAttribute="bottom" constant="256.5" id="bst-hu-80b"/>
+                            <constraint firstItem="P1C-VI-MXn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="eNi-2k-MTU"/>
+                            <constraint firstAttribute="bottom" secondItem="D23-Lt-18V" secondAttribute="bottom" constant="280.5" id="eXz-fs-knS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NSO-6E-odR" secondAttribute="trailing" constant="98" id="g0O-C9-fZa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hbY-im-i6w" secondAttribute="trailing" constant="28" id="gxF-HS-cq5"/>
+                            <constraint firstItem="Bb0-Uq-vej" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="h0z-38-3jv"/>
+                            <constraint firstItem="aWa-aQ-on6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hVP-EQ-qM7"/>
+                            <constraint firstItem="aWa-Lb-8hS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="iTI-6B-0Cw"/>
+                            <constraint firstItem="Bb0-Uq-vej" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="jFk-0O-6zn"/>
+                            <constraint firstItem="NSO-6E-odR" firstAttribute="leading" secondItem="s2L-JU-Xpr" secondAttribute="trailing" constant="30" id="peY-Lo-1g5"/>
+                            <constraint firstItem="l74-Ve-Cpx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="t09-pv-hho"/>
+                            <constraint firstItem="D23-Lt-18V" firstAttribute="top" secondItem="HiJ-OO-eAA" secondAttribute="bottom" constant="7.5" id="tqc-9f-3cn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aWa-aQ-on6" secondAttribute="trailing" constant="20" id="uY5-YC-aoq"/>
+                            <constraint firstItem="NSO-6E-odR" firstAttribute="leading" secondItem="D23-Lt-18V" secondAttribute="trailing" constant="79" id="vL6-go-g51"/>
+                            <constraint firstItem="D23-Lt-18V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="vxd-Xi-TdY"/>
+                            <constraint firstItem="NSO-6E-odR" firstAttribute="top" secondItem="HiJ-OO-eAA" secondAttribute="bottom" constant="37.5" id="x6A-p7-QLr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="VGL-P4-2hE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="502.89855072463774" y="-106.47321428571428"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hQa-AV-JGn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5JW-gn-P4P" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Rz-qA-OxL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Cx5-b9-tvX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qHZ-lz-r5s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-383" y="-106"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="haliResim" width="500" height="250"/>
+        <namedColor name="anaRenk">
+            <color red="0.0" green="0.5899999737739563" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk2">
+            <color red="0.21500000357627869" green="0.22200000286102295" blue="0.25900000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk3">
+            <color red="0.92900002002716064" green="0.22499999403953552" blue="0.19900000095367432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

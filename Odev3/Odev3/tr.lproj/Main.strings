@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Meterial"; ObjectID = "Bb0-Uq-vej"; */
+"Bb0-Uq-vej.text" = "Materyal";
+
+/* Class = "UILabel"; text = "Color palette: walnut brown, bone beige, charcoal"; ObjectID = "HiJ-OO-eAA"; */
+"HiJ-OO-eAA.text" = "Renk paleti: ceviz kahvesi, kemik beji, kömür";
+
+/* Class = "UILabel"; text = " : "; ObjectID = "LUU-Pe-aop"; */
+"LUU-Pe-aop.text" = " : ";
+
+/* Class = "UIButton"; configuration.title = " Polyester "; ObjectID = "MGq-4N-rpL"; */
+"MGq-4N-rpL.configuration.title" = " Polyester ";
+
+
+/* Class = "UIButton"; configuration.title = "60x110"; ObjectID = "NSO-6E-odR"; */
+"NSO-6E-odR.configuration.title" = "60x110";
+
+
+/* Class = "UILabel"; text = "$200"; ObjectID = "P1C-VI-MXn"; */
+"P1C-VI-MXn.text" = "450₺";
+
+/* Class = "UILabel"; text = "Every floor deserve perfect rugs"; ObjectID = "aWa-Lb-8hS"; */
+"aWa-Lb-8hS.text" = "Her ev güzel bir halıyı hak eder.";
+
+/* Class = "UIButton"; configuration.title = "Add To Chart"; ObjectID = "hbY-im-i6w"; */
+"hbY-im-i6w.configuration.title" = "Sepete Ekle";
+
+
+/* Class = "UILabel"; text = "Size"; ObjectID = "hg5-kP-bMU"; */
+"hg5-kP-bMU.text" = "Boyut";
+
+/* Class = "UILabel"; text = "Moon Collection"; ObjectID = "l74-Ve-Cpx"; */
+"l74-Ve-Cpx.text" = "Jawa Koleksiyonu";
+
+/* Class = "UILabel"; text = " : "; ObjectID = "s2L-JU-Xpr"; */
+"s2L-JU-Xpr.text" = " : ";
